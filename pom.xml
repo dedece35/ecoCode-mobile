@@ -24,12 +24,12 @@
 	</licenses>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/green-code-initiative/ecocode-mobile/issues</url>
+		<url>https://github.com/dedece35/ecocode-mobile/issues</url>
 	</issueManagement>
 	<scm>
-		<connection>scm:git:https://github.com/green-code-initiative/ecocode-mobile</connection>
-		<developerConnection>scm:git:https://github.com/green-code-initiative/ecocode-mobile</developerConnection>
-		<url>https://github.com/green-code-initiative/ecocode-mobile</url>
+		<connection>scm:git:https://github.com/dedece35/ecocode-mobile</connection>
+		<developerConnection>scm:git:https://github.com/dedece35/ecocode-mobile</developerConnection>
+		<url>https://github.com/dedece35/ecocode-mobile</url>
 		<tag>HEAD</tag>
 	</scm>
 
