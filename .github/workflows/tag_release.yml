@@ -43,8 +43,9 @@ jobs:
           prerelease: false
           body: ${{ steps.extract-release-notes.outputs.release_notes }}
       - name: DEBUG - ls 'lib'
-        id: debug_ls_lib
-        run: ls lib
+        run: |
+          ls .
+          ls lib
       - name: Export plugin Jar files
         id: export_jar_files
         uses: actions/upload-artifact@v3
@@ -66,8 +67,9 @@ jobs:
           name: ecocode-plugins
           path: lib
       - name: DEBUG - ls 'lib' BIS
-        id: debug_ls_lib_bis
-        run: ls lib
+        run: |
+          ls .
+          ls lib
       - name: Upload Release Asset - Java Plugin
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
