@@ -65,6 +65,9 @@ jobs:
         with:
           name: ecocode-plugins
           path: lib
+      - name: DEBUG - ls 'lib' BIS
+        id: debug_ls_lib_bis
+        run: ls lib
       - name: Upload Release Asset - Java Plugin
         id: upload-release-asset
         uses: actions/upload-release-asset@v1
